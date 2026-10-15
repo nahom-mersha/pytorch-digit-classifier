@@ -1,6 +1,6 @@
 import pytest
 
-from ai_template.statistics import calculate_mean
+from pytorch_digit_classifier.statistics import calculate_mean
 
 
 def test_calculate_mean() -> None:

@@ -3,9 +3,9 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "reusable-ai-template"
+name = "pytorch-digit-classifier"
 version = "0.1.0"
-description = "A reusable Python project template for AI engineering projects"
+description = "A PyTorch implementation of a handwritten digit classifier, compared with a NumPy implementation."
 requires-python = ">=3.10"
 dependencies = []
 

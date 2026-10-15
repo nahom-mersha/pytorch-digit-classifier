@@ -7,7 +7,9 @@ name = "pytorch-digit-classifier"
 version = "0.1.0"
 description = "A PyTorch implementation of a handwritten digit classifier, compared with a NumPy implementation."
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "numpy",
+]
 
 [project.optional-dependencies]
 dev = [
